@@ -25,6 +25,16 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Snackbar test'),
       ),
+      body: Center(
+        child: Text(
+          'Snackbar Test',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            color: Colors.lightBlue[900],
+            fontSize: 24,
+          ),
+        ),
+      ),
       floatingActionButton: GestureDetector(
         onTap: () {
           // the new approach to show SnackBar
